@@ -1,158 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>THE BOOKS </title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-  /* /* background-color: #67bfc5;
-  padding: 20px;
-  text-align: center; */
-  display: flex;
-    flex-direction:column;
-    align-items: center;
-    background-image: url(https://images.bauerhosting.com/motherandbaby/legacy/root/roald-dahl-books.jpg);
-background-repeat: ;
-text-align: center;
-background-position: center;
-padding: 40px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: rgb(16, 158, 146);
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #fdfdfd;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: rgb(15, 197, 197);
-  color: rgb(0, 0, 0);
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column {
-    width: 100%;
+  <title>THE BOOKS</title>
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    position: relative; 
   }
-}
-</style>
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #3ab798;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #0033ff;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
 </head>
-<body>
-    <input type="text" role="combobox" aria-expanded="false" id="location-typeahead-home-input" aria-autocomplete="list" aria-controls="location-typeahead-home-menu" aria-labelledby="location-typeahead-home-label" autocomplete="off" value="" name="searchTerm" placeholder="SEARCH" class="eg aw g7 g8 g9 ga gb gc gd"></br>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<div class="header">
-  <h1>THE BOOKS</h1>
-  <p>BEST BOOK SHOP</p>
-</div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">THE BOOKS</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">MOST POPULAR</a></li>
+          <li><a href="#section2">COMICS</a></li>
+          <li><a href="#section3">MANGA</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">ROMAN</a></li>
+              <li><a href="#section42">BD</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 
-<div class="topnav">
-  <a href="#"><BUtton>MANGA</BUtton></a>
-
-  <a href="#"><BUtton>COMICS</BUtton></a>
-
-  <a href="#"><BUtton>ROMAN</BUtton></a>
-   
-  <a href="#"><BUtton>CHILDRENS BOOK</BUtton></a>
-
-  <a href="#"><BUtton>MAGAZINS</BUtton></a>
-
-  <a href="#"><BUtton>NEWS PAPERS </BUtton></a>
-
-  <a href="#"><BUtton>DVD</BUtton></a>
-
-  <a href="#"><BUtton>NEWEST</BUtton></a>
-  
-  <a href="#"><BUtton>MOST POPULAR</BUtton></a>
-  
-  <a href="#"><BUtton>ON SALE </BUtton></a>
-</div>
-
-<div class="row">
-  
+<div id="section1" class="container-fluid">
+  <h1>MOST POPULAR</h1>
   <div class="column">
     <h2>ATTACK ON TITAN</h2>
-    <p>t is set in a world where humanity lives inside cities surrounded by three enormous walls that protect them from the gigantic man-eating humanoids referred to as Titans; the story follows Eren Yeager, who vows to exterminate the Titans after a Titan brings about the destruction of his hometown and the death of his ...</p>
   </div>
   
-  
-  <img src="https://pbs.twimg.com/media/EoDvNMeUwAMsR7w.jpg" width="250" height="300" alt="La décision">
+  <img src="https://pbs.twimg.com/media/EoDvNMeUwAMsR7w.jpg" width="200" height="250" alt="La décision">
 
-  <div class="row">
+  
   </div>
-  <div class="row">
-    
-  
-    <div class="column">
-      <h2>CHARLIE AND THE CHOCOLATE FACTORY</h2>
-      <p>Grandpa Joe tells Charlie the story of Mr. Wonka and the Indian Prince Pondicherry. Prince Pondicherry asks Mr. Wonka to build him a palace entirely out of chocolate. Mr.Wonka complies, building a palace with chocolate furniture, chocolate walls, and even hot chocolate running from the taps. When he finally finishes the palace, he cautions the prince to eat it quickly because it will not withstand the heat long. But the prince refuses and says he plans to live in the palace. Just as Mr. Wonka predicts, the palace melts during the next hot day and the prince wakes up in a chocolate swimming pool. At the conclusion of the story, Charlie questions Grandpa Joe about the truth of the story, which Grandpa Joe defends. He then tells Charlie that no one has ever been seen going into or leaving the chocolate factory. Charlie is confused at first, but he quickly realizes Grandpa Joe is right: whenever he walks past the factory, the gates are locked. But he also knows that there is work going on in the factory. When he asks Grandpa Joe who works in the factory, his mother interrupts him, calling him to bed before he can hear about the mystery workers.</p>
-    </div>
-    
-    
-    <img src="https://i.ebayimg.com/images/g/k6kAAOSwgtVfMJRO/s-l300.jpg" width="250" height="300" alt="La décision">
-  
-    <div class="row">
-    </div>
-    <div class="row">
-  
-      <div class="column">
-        <h2>THE witches</h2>
-        <p>n late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered her fellow cronies from around the globe -- under cover -- to carry out her nefarious plans.</p>
-      </div>
-      
-      
-      <img src="https://www.iaminprint.co.uk/wp-content/uploads/2019/10/Screenshot-2019-10-28-at-18.28.11.png" width="250" height="300" alt="La décision">
-    
-      <div class="row">
-      </div>
+</div>
+<div align="right">
+<div id="section2" class="container-fluid">
+  <h1>COMICS</h1>
+  <img src="https://kbimages1-a.akamaihd.net/40a79dd3-57a5-4675-8b38-2ee85e84b077/1200/1200/False/archie-comics-double-digest-271.jpg" width="200" height="250" alt="La décision">
+</div>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>MANGA</h1>
+  <h1>BLEACH</h1>
+  <img src="https://static.wikia.nocookie.net/bleach/images/4/4e/MangaVolume45Cover.png/revision/latest?cb=20160830194718&path-prefix=en" width="200" height="250" alt="La décision">
+</div>
+<div id="section41" class="container-fluid">
+  <h1>ROMAN</h1>
+  <h1>THE WITCHES </h1>
+  <img src="https://www.iaminprint.co.uk/wp-content/uploads/2019/10/Screenshot-2019-10-28-at-18.28.11.png" width="250" height="300" alt="La décision">
+</div>
+<div id="section42" class="container-fluid">
+  <h1>BD</h1>
+  <h1>ARCHIE</h1>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/71GIFM5w-hL.jpg" width="200" height="250" alt="La décision">
+</div>
 
-      <div class="row">
-  
-        <div class="column">
-          <h2>MOSTY WANTED </h2>
-          <p>n late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered her fellow cronies from around the globe -- under cover -- to carry out her nefarious plans.</p>
-        </div>
-        
-        
-        <img src="https://m.media-amazon.com/images/I/510mEQB-tIL.jpg" width="250" height="300" alt="La décision">
-      
-        <div class="row">
-        </div>
-     <center> <a href="#"><BUtton><h1>CONTACTEZ NOUS SUR NOS RESEAUX SOCIAUX</h1> </BUtton></a></center> 
-        
 </body>
 </html>
