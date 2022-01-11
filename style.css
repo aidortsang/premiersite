@@ -1,3 +1,14 @@
 body{background:#d65409;font-size:10pt;
 }
+<style>
+body {
+  position: relative; 
+}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #3ab798;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #0033ff;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+</style>
 
+<img src="https://kbimages1-a.akamaihd.net/40a79dd3-57a5-4675-8b38-2ee85e84b077/1200/1200/False/archie-comics-double-digest-271.jpg" width="200" height="250" alt="La décision">
