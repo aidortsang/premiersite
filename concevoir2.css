@@ -2,53 +2,53 @@ body {
     background-color: darkslategray;
 }
 #nav{
-    border : 5px solid red;
+    border : 5px solid rgb(247, 247, 247);
     margin : 20px;
     width : 100%;
 }
 
 #search{
-    border : 5px solid blue;
+    border : 5px solid rgba(255, 255, 255, 0.938);
     margin : 20px;
 
 }
 
 #promodujour{
-    border : 5px solid red;
+    border : 5px solid rgb(255, 255, 255);
     margin : 20px;
 
 }
 
 
 #containercartes{
-    border : 5px solid red;
+    border : 5px solid rgb(255, 255, 255);
     margin : 20px;
     display: flex;
 
 }
         
 .carte{
-    border : 5px solid green;
+    border : 5px solid rgb(255, 255, 255);
     margin : 20px;
 
 }
 
 .carteimage{
-    border : 5px solid yellow;
+    border : 5px solid rgb(255, 255, 255);
     margin : 20px;
 
 }
 
 .cartetexte{
-    border : 5px solid yellow;
+    border : 5px solid rgb(255, 255, 255);
     margin : 20px;
 
 }
 
 #pieddepage{
-    border : 5px solid red;
-    background-color: black;
-    color:forestgreen;
+    border : 5px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color:rgb(250, 250, 250);
     margin : 20px;
     width : 100%;
 }
