@@ -1,161 +1,134 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>THE BOOKS</title>
-  <link rel="stylesheet" media="screen" type="text/css" href="./style.css">
-  
+
+  <!-- réglons le problème des accents -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    position: relative; 
-  }
-  #section1 {padding-top:50px;height:500px;color: rgb(0, 0, 0); background-color: #09b2cf;}
-  #section2 {padding-top:50px;height:500px;color: rgb(14, 13, 13); background-color: #1c415f;}
-  #section3 {padding-top:50px;height:500px;color: rgb(0, 0, 0); background-color: #09b2cf;}
-  #section41 {padding-top:50px;height:500px;color: rgb(0, 0, 0); background-color: #242569;}
-  #section42 {padding-top:50px;height:500px;color: rgb(0, 0, 0); background-color: #418697;}
-  </style>
+  <!-- titre du site -->
+  <title>MANGA ZONE</title>
+  <!-- inclure la feuille de style -->
+  <link rel="stylesheet" media="screen" type="text/css" href="./concevoir2.css">
+  <!-- viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
- 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
+
+<body>
+  <div id="nav">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">THE BOOKS</a>
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#section1">MOST POPULAR</a></li>
-           <li><a href="#section2">COMICS</a></li>
-          <li><a href="#section3">MANGA</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#section41">ROMAN</a></li>
-              <li><a href="#section42">BD</a></li>
-            </ul>
-          </li>
-        </ul>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">MANGA ZONE</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#section1">MOST POPULAR</a></li>
+            <li><a href="#section2">shonen</a></li>
+            <li><a href="#section3">romance</a></li>
+            <li><a href="#section3">merch</a></li>
+            <li><a href="#section3">figurines</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span
+                  class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#section41">horror</a></li>
+                <li><a href="#section42">18+</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</nav>    
-<div> 
-  <img src="https://pbs.twimg.com/media/EXTdqkRXQAEHkfr?format=jpg&name=large" width="200" height="250" alt="La décision">
-<div class="ba c0 dh b9 fn ey aw ax af b0 fo fp ah ag bx"><div class="fq ah bp bf"><div class="f4 dn fr"><svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M17.5834 5.16602C14.5001 2.08268 9.50008 2.08268 6.41675 5.16602C3.33341 8.24935 3.33341 13.3327 6.41675 16.416L12.0001 21.9993L17.5834 16.3327C20.6667 13.3327 20.6667 8.24935 17.5834 5.16602ZM12.0001 12.416C11.0834 12.416 10.3334 11.666 10.3334 10.7493C10.3334 9.83268 11.0834 9.08268 12.0001 9.08268C12.9167 9.08268 13.6667 9.83268 13.6667 10.7493C13.6667 11.666 12.9167 12.416 12.0001 12.416Z" fill="#000000"></path></svg></div></div><div class="spacer _16"></div><input type="text" role="combobox" aria-expanded="false" id="location-typeahead-home-input" aria-autocomplete="list" aria-controls="location-typeahead-home-menu" aria-labelledby="location-typeahead-home-label" autocomplete="off" value="" name="searchTerm" placeholder="Saisissez l'adresse de livraison." class="e9 aw fs ft fu fv fw fx fy"><div class="spacer _8"></div></div>
-</div>
-<div id="section1" class="container-fluid">
-  <h1>MOST POPULAR</h1>
-  <div class="column">
-    <h2>ATTACK ON TITAN</h2>
-  </div>
-  
-  <img src="https://img1.od-cdn.com/ImageType-400/6612-1/4AF/A98/C2/%7B4AFA98C2-371E-4E24-B92A-ED9137CF2EEE%7DImg400.jpg" width="200" height="250" alt="La décision">
+  </nav>
 
-<button>10</button>
-</div>
-<div align="right">
-<div id="section2" class="container-fluid">
-  <h1>COMICS</h1>
-  <img src="https://kbimages1-a.akamaihd.net/40a79dd3-57a5-4675-8b38-2ee85e84b077/1200/1200/False/archie-comics-double-digest-271.jpg" width="200" height="250" alt="La décision">
-<button>10</button>
-</div>
-</div>
 
-<div id="section2" class="container-fluid">
-  <h1>COMICS</h1>
-  <img src="https://kbimages1-a.akamaihd.net/40a79dd3-57a5-4675-8b38-2ee85e84b077/1200/1200/False/archie-comics-double-digest-271.jpg" width="200" height="250" alt="La décision">
-<button>10</button>
-</div>
-  </div>
-  
-</div>
-<div align="right">
-<div id="section2" class="container-fluid">
-  <h1>COMICS</h1>
-  <img src="https://kbimages1-a.akamaihd.net/40a79dd3-57a5-4675-8b38-2ee85e84b077/1200/1200/False/archie-comics-double-digest-271.jpg" width="200" height="250" alt="La décision">
-<button>10</button>
-</div>
-</div>
-<div id="section3" class="container-fluid">
-  <h1>MANGA</h1>
-  <h1>BLEACH</h1>
-  <img src="https://static.wikia.nocookie.net/bleach/images/4/4e/MangaVolume45Cover.png/revision/latest?cb=20160830194718&path-prefix=en" width="200" height="250" alt="La décision">
-  <button>10</button>
-</div>
-<div align="right">
-<div id="section2" class="container-fluid">
-  <h1>COMICS</h1>
-  <img src="https://kbimages1-a.akamaihd.net/40a79dd3-57a5-4675-8b38-2ee85e84b077/1200/1200/False/archie-comics-double-digest-271.jpg" width="200" height="250" alt="La décision">
-<button>10</button>
-</div>
-</div>
-<div id="section41" class="container-fluid">
-  <h1>ROMAN</h1>
-  <h1>THE WITCHES </h1>
-  <img src="https://www.iaminprint.co.uk/wp-content/uploads/2019/10/Screenshot-2019-10-28-at-18.28.11.png" width="250" height="300" alt="La décision">
-  <button>10</button>
-</div>
-<div id="section42" class="container-fluid">
-  <h1>BD</h1>
-  <h1>ARCHIE</h1>
-  <img src="https://images-na.ssl-images-amazon.com/images/I/71GIFM5w-hL.jpg" width="200" height="250" alt="La décision">
-  <button>10</button>
-</div>
-<div id="section42" class="container-fluid"><div id="section42" class="container-fluid"></div>
 
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3><button type="button" class="btn btn-warning">nos contact</button></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">THE BOOKS</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+
+            <li><a href="#section2">COMICS</a></li>
+            <li><a href="#section3">MANGA</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span
+                  class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#section41">ROMAN</a></li>
+                <li><a href="#section42">BD</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h3><button type="button" class="btn btn-warning">aide</button></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3><button type="button" class="btn btn-warning">service clients</button></h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-
-      <div class="container mt-3">
-  
-  
-        <h1>Feet back</h1>
-
-        <form action="/action_page.php" method="get">
-          <input type="checkbox" name="vehicle1" value="Bike">
-          <label for="vehicle1"> bad</label><br>
-          <input type="checkbox" name="vehicle2" value="Car">
-          <label for="vehicle2"> good</label><br>
-          <input type="checkbox" name="vehicle3" value="Boat" checked>
-          <label for="vehicle3"> not inttrested</label><br><br>
-          <input type="submit" value="Submit">
-        </form>
-        
-  <div class="card" style="width:400px">
-    <div class="card-body">
-      <h4 class="card-title">tashi</h4>
-      <p class="card-text">ceo of ......</p>
-      <a href="#" class="btn btn-primary">See Profile</a>
-    </div>
-    <img class="card-img-bottom" src="https://cdn.iconscout.com/icon/free/png-256/face-1659511-1410033.png" alt="Card image" style="width:100%">
+  </nav>
   </div>
-</div>
+  <div align="right">
+    <div id="section2" class="container-fluid">
+    
+      <img
+        src="https://www.thelocal.fr/wp-content/uploads/2021/07/000_9HU6EE.jpg"
+        width="500" height="250" alt="La décision">
     </div>
   </div>
+  <div id="section3" class="container-fluid">
+    <h1>MANGA</h1>
+    <h1>BLEACH</h1>
+    <img
+      src="https://static.wikia.nocookie.net/bleach/images/4/4e/MangaVolume45Cover.png/revision/latest?cb=20160830194718&path-prefix=en"
+      width="200" height="250" alt="La décision">
+  </div>
+  <div align="right">
+  <div id="section41" class="container-fluid">
+    <h1>ROMAN</h1>
+    <h1>THE WITCHES </h1>
+    <img src="https://www.iaminprint.co.uk/wp-content/uploads/2019/10/Screenshot-2019-10-28-at-18.28.11.png" width="250"
+      height="300" alt="La décision">
+  </div>
 </div>
+  <div id="section42" class="container-fluid">
+    <h1>BD</h1>
+    <h1>ARCHIE</h1>
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71GIFM5w-hL.jpg" width="200" height="250"
+      alt="La décision">
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3><button type="button" class="btn btn-warning">nos contact</button></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3><button type="button" class="btn btn-warning">aide</button></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3><button type="button" class="btn btn-warning">service clients</button></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
 </body>
- </html>
+
+</html>
